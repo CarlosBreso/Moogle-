@@ -1,0 +1,11 @@
+Un día después de la declaración de guerra de Gran Bretaña, en septiembre de 1939, Turing fue convocado a Bletchley Park, donde se encontraba la Escuela Gubernamental de Código y Cifrado (GC&CS). Las nueve mil personas que trabajaban allí se dedicaron a intentar interpretar las comunicaciones alemanas cifradas en código morse.
+
+El cifrado lo hacían a través de una máquina de sistema rotatorio llamada Enigma (máquina). Enigma había sido inventada en 1918 por Arthur Scherbius. Era similar a una máquina de escribir, en la cual cada vez que una letra era pulsada, era sustituida por otra mediante el uso de tres rotores internos (las máquinas militares llegaron a usar cinco), cuyo resultado era más de diez mil billones de configuraciones distintas. Debido al carácter portátil de la máquina, los operadores podían estar ubicados en los puestos de mando, interior de los tanques, submarinos, en bombardeos, etc. Independientemente de su locación, los operadores, llevaban las instrucciones de cómo debían colocarse los rotores, y las posiciones cambiaban cada pocos días.23​
+
+El equipo liderado por Turing, a través de ecuaciones y cálculos, encontraron pautas en los mensajes con lo que pudieron detectar una pequeña parte de su funcionamiento. Sin embargo, todavía no podían descifrarlos. Fue entonces, cuando Turing se preguntó:
+
+¿Y si para luchar contra una máquina como Enigma hiciese falta otra máquina?24​
+
+A raíz de esta pregunta, Turing pudo poner en práctica sus teorías: diseñó la máquina Bombe. Bombe buscaba la configuración de los rotores de la máquina alemana, implementando una cadena de deducciones lógicas para cada combinación posible. Gracias a las mejoras del matemático, Gordon Welchman, el 14 de marzo de 1940, el primer prototipo estaba terminado. Al cabo de un tiempo disponían con más de doscientas Bombes.25​
+
+Los trabajos de la GC&CS, dirigidos por Turing, fueron determinantes para acortar la guerra. Algunos historiadores afirman que su trabajo acortó dos años la duración de la guerra, salvando alrededor de catorce millones de vidas.26​ Al finalizar la guerra, las máquinas Bombe se desmantelaron y todo el trabajo permaneció en secreto hasta los setenta. En 1974 el capitán W. F. Winterbotham escribió el libro The Ultra Secret.27​

@@ -1,0 +1,32 @@
+Internet (el internet o, también, la internet)3​ es un conjunto descentralizado de redes de comunicaciones interconectadas,
+ que utilizan la familia de protocolos TCP/IP, lo cual garantiza que las redes físicas heterogéneas que la componen constituyen
+ una red lógica única de alcance mundial. Sus orígenes se remontan a 1969, cuando se estableció la primera conexión de computadoras,
+ conocida como ARPANET, entre tres universidades en California (Estados Unidos).
+
+Uno de los servicios que más éxito ha tenido en internet ha sido la World Wide Web (WWW o la Web), hasta tal punto que es habitual
+ la confusión entre ambos términos. La WWW es un conjunto de protocolos que permite, de forma sencilla, la consulta remota de
+ archivos de hipertexto. Esta fue un desarrollo posterior (1990) y utiliza internet como medio de transmisión.4​
+
+Existen, por tanto, muchos otros servicios y protocolos en internet, aparte de la Web: el envío de correo electrónico (SMTP), la
+ transmisión de archivos (FTP y P2P), las conversaciones en línea (IRC), la mensajería instantánea y presencia, la transmisión de
+ contenido y comunicación multimedia —telefonía (VoIP), televisión (IPTV)—, los boletines electrónicos (NNTP), el acceso remoto a
+ otros dispositivos (SSH y Telnet) o los juegos en línea.4​5​6​
+
+El uso de internet creció rápidamente en el hemisferio occidental desde la mitad de la década de 1990 y desde la década de 2000
+ en el resto del mundo.7​ En los 20 años desde 1995, el uso de internet se ha multiplicado por 100, cubriendo en 2015 a la tercera
+ parte de la población mundial.8​9​
+
+La mayoría de las industrias de comunicación, incluyendo telefonía, radio, televisión, correo postal y periódicos tradicionales
+ están siendo transformadas o redefinidas por Internet, y permitió el nacimiento de nuevos servicios como correo electrónico (e-mail),
+ telefonía por internet, televisión por Internet, música digital, y vídeo digital. Las industrias de publicación de periódicos, libros
+ y otros medios impresos se están adaptando a la tecnología de los sitios web, o están siendo reconvertidos en blogs, web feeds o
+ agregadores de noticias. Internet también ha permitido o acelerado nuevas formas de interacción personal por medio de mensajería
+ instantánea, foros de Internet, y redes sociales. El comercio electrónico ha crecido exponencialmente tanto por grandes cadenas
+ como pequeñas y medianas empresas o emprendedores, ya que ahora pueden vender por internet productos o servicios hacia todo el
+ mundo.10​ Los servicios interempresariales y financieros en Internet afectan las cadenas de suministro en todas las industrias.
+
+Internet no tiene una gobernanza centralizada única ni en la implementación tecnológica ni en las políticas de acceso y uso; cada
+ red constituyente establece sus propias políticas.11​ Las definiciones excesivas de los dos espacios de nombres principales en Internet,
+ el Protocolo de Internet (dirección IP) y el Sistema de nombres de dominio (DNS), están dirigidos por una organización mantenedora,
+ la Corporación de Internet para la Asignación de Nombres y Números (ICANN).12​ La base técnica y la estandarización de los protocolos
+ centrales es una actividad del Grupo de Trabajo de Ingeniería de Internet (IETF), una organización internacional sin fines de lucro.13  

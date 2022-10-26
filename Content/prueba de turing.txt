@@ -1,0 +1,9 @@
+La prueba de Turing es un método para determinar si una máquina puede pensar.
+
+Nace de un juego de imitación, en donde hay tres personas: un interrogador, un hombre y una mujer. El interrogador está separado de los otros dos, y solo puede comunicarse con ellos a través de un lenguaje que entiendan. El objetivo del interrogador es descubrir quién es la mujer, y quién es el hombre, mientras que el de los otros dos, es convencerlo que son la mujer. En su artículo de 1950, «Computing machinery and intelligence», Turing sustituye a uno de los interrogados por una computadora y cambia los objetivos del juego: reconocer a la máquina.
+
+«Una computadora puede ser llamada inteligente si logra engañar a una persona haciéndole creer que es un humano» - Alan Turing.29​
+
+La forma de hacer pasar la prueba a una máquina consiste básicamente en una persona hablando con una computadora en otra habitación mediante un sistema de chat. Si la persona es incapaz de determinar si habla con un humano o con una computadora, entonces la computadora se considera inteligente.
+
+En el año 2014, por primera vez, el chatbot de Eugene Gootsman, logró convencer a treinta jueces que estaban participando en la prueba de que estaban chateando con un niño ucraniano de trece años.30​31​

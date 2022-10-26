@@ -1,0 +1,30 @@
+Algoritmo original de Euclides
+AB y CD los segmentos conmensurables.
+Ejemplo del algoritmo original de Euclides.
+
+En la concepción griega de la matemática, los números se entendían como magnitudes geométricas. Un tema recurrente en la geometría griega es el de la conmensurabilidad de dos segmentos: dos segmentos (números) AB y CD son conmensurables cuando existe un tercer segmento PQ que cabe exactamente un número entero de veces en los primeros dos; es decir, PQ «mide» (mensura: medida) a los segmentos AB y CD.
+
+No cualquier par de segmentos es conmensurable, como encontraron los pitagóricos cuando establecen que el lado y la diagonal de un cuadrado no son conmensurables, pero en el caso de dos segmentos conmensurables se desea hallar la mayor medida común posible.
+
+Euclides describe en la proposición VI I.2 de sus Elementos un método que permite hallar la mayor medida común posible de dos números (segmentos) que no sean primos entre sí, aunque de acuerdo a la época tal método se explica en términos geométricos, lo que se ilustra en la siguiente transcripción.
+
+    Para encontrar la máxima medida común de dos números que no sean primos entre sí.
+    Euclides VII-2.svg
+
+    Sean AB y CD los dos números que no son primos uno al otro. Se necesita entonces encontrar la máxima medida común de AB y CD.
+
+    Si CD mide AB entonces es una medida común puesto que CD se mide a sí mismo. Y es manifiesto que también es la mayor medida pues nada mayor a CD puede medir a CD. Pero si CD no mide a AB entonces algún número quedará de AB y CD, el menor siendo continuamente restado del mayor y que medirá al número que le precede. Porque una unidad no quedará pues si no es así, AB y CD serán primos uno del otro [Prop. VII.1], lo cual es lo contrario de lo que se supuso.
+
+    Por tanto, algún número queda que medirá el número que le precede. Y sea CD midiendo BE dejando EA menor que sí mismo y sea EA midiendo DF dejando FC menor que sí mismo y sea FC medida de AE. Entonces, como FC mide AE y AE mide DF, FC será entonces medida de DF. Y también se mide a sí mismo. Por tanto también medirá todo CD. Y CD mide a BE. Entonces CF mide a BE y también mide a EA. Así mide a todo BA y también mide a CD. Esto es, CF mide tanto a AB y CD por lo que es una medida común de AB y CD.
+
+    Afirmo que también es la mayor medida común posible porque si no lo fuera, entonces un número mayor que CF mide a los números AB y CD, sea éste G. Dado que G mide a CD y CD mide a BE, G también mide a BE. Además, mide a todo BA por lo que mide también al residuo AE. Y AE mide a DF por lo que G también mide a DF. Mide también a todo DC por lo que mide también al residuo CF, es decir el mayor mide al menor, lo cual es imposible.
+    Por tanto, ningún número mayor a CF puede medir a los números AB y CD. Entonces CF es la mayor medida común de AB y CD, lo cual se quería demostrar.
+    Euclides. Elementos VII.2
+
+En lenguaje moderno, el algoritmo se describe como sigue:
+
+    Dados dos segmentos AB y CD (con AB>CD), restamos CD de AB tantas veces como sea posible. Si no hay residuo, entonces CD es la máxima medida común.
+    Si se obtiene un residuo EA, este es menor que CD y podemos repetir el proceso: restamos EA tantas veces como sea posible de CD. Si al final no queda un residuo, EA es la medida común. En caso contrario obtenemos un nuevo residuo FC menor a EA.
+    El proceso se repite hasta que en algún momento no se obtiene residuo. Entonces el último residuo obtenido es la mayor medida común.
+
+El hecho de que los segmentos son conmesurables es clave para asegurar que el proceso termina tarde o temprano 
