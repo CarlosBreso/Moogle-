@@ -58,3 +58,15 @@ C:\Data\backup\Moogle! 1.10\MoogleEngine\obj\Debug\net6.0\MoogleEngine.csproj.Co
 C:\Data\backup\Moogle! 1.10\MoogleEngine\obj\Debug\net6.0\MoogleEngine.dll
 C:\Data\backup\Moogle! 1.10\MoogleEngine\obj\Debug\net6.0\ref\MoogleEngine.dll
 C:\Data\backup\Moogle! 1.10\MoogleEngine\obj\Debug\net6.0\MoogleEngine.pdb
+C:\Data\Moogle! 1.10\MoogleEngine\bin\Debug\net6.0\MoogleEngine.deps.json
+C:\Data\Moogle! 1.10\MoogleEngine\bin\Debug\net6.0\MoogleEngine.dll
+C:\Data\Moogle! 1.10\MoogleEngine\bin\Debug\net6.0\ref\MoogleEngine.dll
+C:\Data\Moogle! 1.10\MoogleEngine\bin\Debug\net6.0\MoogleEngine.pdb
+C:\Data\Moogle! 1.10\MoogleEngine\obj\Debug\net6.0\MoogleEngine.csproj.AssemblyReference.cache
+C:\Data\Moogle! 1.10\MoogleEngine\obj\Debug\net6.0\MoogleEngine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Data\Moogle! 1.10\MoogleEngine\obj\Debug\net6.0\MoogleEngine.AssemblyInfoInputs.cache
+C:\Data\Moogle! 1.10\MoogleEngine\obj\Debug\net6.0\MoogleEngine.AssemblyInfo.cs
+C:\Data\Moogle! 1.10\MoogleEngine\obj\Debug\net6.0\MoogleEngine.csproj.CoreCompileInputs.cache
+C:\Data\Moogle! 1.10\MoogleEngine\obj\Debug\net6.0\MoogleEngine.dll
+C:\Data\Moogle! 1.10\MoogleEngine\obj\Debug\net6.0\ref\MoogleEngine.dll
+C:\Data\Moogle! 1.10\MoogleEngine\obj\Debug\net6.0\MoogleEngine.pdb

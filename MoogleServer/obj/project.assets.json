@@ -32,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Data\\backup\\Moogle! 1.10\\MoogleServer\\MoogleServer.csproj",
+      "projectUniqueName": "C:\\Data\\Moogle! 1.10\\MoogleServer\\MoogleServer.csproj",
       "projectName": "MoogleServer",
-      "projectPath": "C:\\Data\\backup\\Moogle! 1.10\\MoogleServer\\MoogleServer.csproj",
+      "projectPath": "C:\\Data\\Moogle! 1.10\\MoogleServer\\MoogleServer.csproj",
       "packagesPath": "C:\\Users\\carlos\\.nuget\\packages\\",
-      "outputPath": "C:\\Data\\backup\\Moogle! 1.10\\MoogleServer\\obj\\",
+      "outputPath": "C:\\Data\\Moogle! 1.10\\MoogleServer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\carlos\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -51,8 +51,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Data\\backup\\Moogle! 1.10\\MoogleEngine\\MoogleEngine.csproj": {
-              "projectPath": "C:\\Data\\backup\\Moogle! 1.10\\MoogleEngine\\MoogleEngine.csproj"
+            "C:\\Data\\Moogle! 1.10\\MoogleEngine\\MoogleEngine.csproj": {
+              "projectPath": "C:\\Data\\Moogle! 1.10\\MoogleEngine\\MoogleEngine.csproj"
             }
           }
         }

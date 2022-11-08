@@ -19,6 +19,7 @@ namespace MoogleEngine
         public static char[] charSeparators_to_query = new char[] {'º','ª','|','"','@','·','#','$','%','€','&','¬','/','(',')','=','?','¿','¡','+','-','^','`','[',']','}','Ç','¨','´','{',';',',',':','.','-','_','<','>',' '};
         static Dictionary <string, string[]> Sinonimos = new Dictionary <string, string[]> ();
         public static string [] cuerpo = new string [0];
+        public static bool Do_synonymous = false;
 
         
         //metodo super especial y magico para contar apariciones de una palabra en un texto
@@ -171,26 +172,16 @@ namespace MoogleEngine
 
         public static SearchResult Query(string query) {
 
-            
+            string [] to_search;
             string temp = query;
             temp = MoogleEngine.Tools.FixedText(temp);
             string [] arrquery = temp.Split(charSeparators_to_query);
-            temp = "";
             //Extraer los sinonimos
-            
-            for (int i = 0; i < arrquery.Length; i++)
-                foreach (var synonymous in sinonimos){
-                    if(arrquery[i] == synonymous.Key){
-                        foreach (string word in synonymous.Value)
-                            temp += word + " ";
-
-                    break;
-                    }             
-                }           
-            
-            //buscar el query y los sinonimos del mismo. puede que las palabras del query no existan pero sus sinonimos sí
-            string [] Temp = temp.Split(' '); 
-            string [] to_search = arrquery.Concat(Temp).ToArray();
+            if(Do_synonymous){
+                string [] Temp = MoogleEngine.Tools.Do_synonymous(arrquery);
+                to_search = arrquery.Concat(Temp).ToArray();
+            }
+            else to_search = arrquery;
                         
             SearchItem[] items = Search(to_search);
             string suggestion = Search_Sugesstion(arrquery);   

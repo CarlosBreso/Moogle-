@@ -12,6 +12,7 @@
     suggest = @result.Suggestion;
     <div class="suggestion">
         <p>¿Quisite decir <strong><a href="#" @onclick="Suggest">@result.Suggestion</a></strong>?</p>
+        <p>Usar sinónimos: <strong><a href="#" @onclick="Cambiar"> @MoogleEngine.Tools.Si_o_no() </a></strong></p>
     </div>
 }
 
@@ -28,8 +29,13 @@
 
 @code {
     public string suggest = "";
-    private string query = "";
+    private string query = ""; 
     private SearchResult result = new SearchResult();
+
+    private void Cambiar(){
+
+        MoogleEngine.Moogle.Do_synonymous = !MoogleEngine.Moogle.Do_synonymous;
+    }
 
     private void Suggest()
     {

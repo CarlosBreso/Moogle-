@@ -7,22 +7,7 @@ namespace MoogleEngine
 {
     public class Tools
     {   
-        static public string [] Archivar(){
-
-            string [] filenames = Directory.GetFiles(@"../Content/", "*.txt");
-            string [] readed_files = new string [filenames.Length];  
-
-            for(int i = 0; i < filenames.Length; i++)
-            {
-                readed_files[i] = File.ReadAllText(FixedText(filenames[i]));
-            }
-            return readed_files;
-        }
-        static public string FixedText(string text) {
-            
-            return text.ToLower().Trim();
-            
-            }
+       
         public static Dictionary <string, int> TfGlobal() {
             
             Dictionary <string, int> tfGlobal = new Dictionary <string, int>();
@@ -49,6 +34,41 @@ namespace MoogleEngine
            
             return JsonSerializer.Deserialize <Dictionary<string, string[]>>(File.ReadAllText("../MoogleEngine/Sinonimos.json"));      
         }
+        
+        public static string [] Do_synonymous(string [] arrquery){
+            string temp = "";
+            for (int i = 0; i < arrquery.Length; i++)
+                foreach (var synonymous in MoogleEngine.Moogle.sinonimos){
+                    if(arrquery[i] == synonymous.Key){
+                        foreach (string word in synonymous.Value)
+                            temp += word + " ";
+
+                    break;
+                    }             
+                }           
+            return temp.Split(' ');
+        }
+        
+        public static string Si_o_no(){
+            if(MoogleEngine.Moogle.Do_synonymous) return "si";
+            else return "no";
+        }
+         static public string [] Archivar(){
+
+            string [] filenames = Directory.GetFiles(@"../Content/", "*.txt");
+            string [] readed_files = new string [filenames.Length];  
+
+            for(int i = 0; i < filenames.Length; i++)
+            {
+                readed_files[i] = File.ReadAllText(FixedText(filenames[i]));
+            }
+            return readed_files;
+        }
+        static public string FixedText(string text) {
+            
+            return text.ToLower().Trim();
+            
+            }
 
         //el metodo devuelve la cantidad de cambios minimos para convertir una palabra en otra
         public static int Levenshtein(string word1, string word2) 

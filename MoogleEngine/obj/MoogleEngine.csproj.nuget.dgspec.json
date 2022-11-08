@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Data\\backup\\Moogle! 1.10\\MoogleEngine\\MoogleEngine.csproj": {}
+    "C:\\Data\\Moogle! 1.10\\MoogleEngine\\MoogleEngine.csproj": {}
   },
   "projects": {
-    "C:\\Data\\backup\\Moogle! 1.10\\MoogleEngine\\MoogleEngine.csproj": {
+    "C:\\Data\\Moogle! 1.10\\MoogleEngine\\MoogleEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Data\\backup\\Moogle! 1.10\\MoogleEngine\\MoogleEngine.csproj",
+        "projectUniqueName": "C:\\Data\\Moogle! 1.10\\MoogleEngine\\MoogleEngine.csproj",
         "projectName": "MoogleEngine",
-        "projectPath": "C:\\Data\\backup\\Moogle! 1.10\\MoogleEngine\\MoogleEngine.csproj",
+        "projectPath": "C:\\Data\\Moogle! 1.10\\MoogleEngine\\MoogleEngine.csproj",
         "packagesPath": "C:\\Users\\carlos\\.nuget\\packages\\",
-        "outputPath": "C:\\Data\\backup\\Moogle! 1.10\\MoogleEngine\\obj\\",
+        "outputPath": "C:\\Data\\Moogle! 1.10\\MoogleEngine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\carlos\\AppData\\Roaming\\NuGet\\NuGet.Config"
